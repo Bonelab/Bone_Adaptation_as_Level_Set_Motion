@@ -1,3 +1,5 @@
+# B.A. Besler 2018
+# Bone Imaging Laboratory
 
 import SimpleITK as sitk
 import argparse

@@ -1,6 +1,5 @@
-
-# python visualize.py visit_1/mask_v1.mha visit_1/points_v1.txt
-# Code not yet complete
+# B.A. Besler 2018
+# Bone Imaging Laboratory
 
 import vtk
 import os
