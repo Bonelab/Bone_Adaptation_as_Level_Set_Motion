@@ -14,7 +14,8 @@ If you find any of this code useful, please cite the following work:
 
 ## Requirements
 - ITK v4.12
-- Python
+- CMake
+- Conda (Python only)
 
 ## File Structure
 There exists four directories
@@ -23,3 +24,5 @@ There exists four directories
 - **Iteration** Given a phi, use this to run one iteration
 - **Python** Various python scripts that go along with the paper
 
+`Initialize` and `Iteration` form the majority of the work.
+The Python scripts are useful for preprocessing, visualization, and implicit functions.
