@@ -1,5 +1,6 @@
 # Bone Adaptation as Level Set Motion
-Try curvature based bone adaptation for yourself!
+Try curvature based bone adaptation for yourself!*
+![Loss over time][C1-6]
 
 If you find any of this code useful, please cite the following work:
 ```
@@ -11,6 +12,8 @@ If you find any of this code useful, please cite the following work:
 	organization={Springer}
 }
 ```
+
+<sub>*These images are created by incrementing 50 years of loss one year at a time. They are rendered directly from the embedding function using Marching Cubes. From left to right the surfaces are: Variable thickness rod, constant thickness rod, resorbed rod, resorbing rod, resorbed plate, constant plate.</sub>
 
 ## Requirements
 - ITK v4.12
@@ -26,3 +29,5 @@ There exists four directories
 
 `Initialize` and `Iteration` form the majority of the work.
 The Python scripts are useful for preprocessing, visualization, and implicit functions.
+
+[C1-6]: Figures/C1-6.gif
